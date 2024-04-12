@@ -1,0 +1,51 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Canvas container styles */
+  .canvas-container {
+    margin-right: 20px;
+  }
+  
+  /* Canvas styles */
+  canvas {
+    border: 1px solid #ccc;
+  }
+  
+  /* Controls styles */
+  .controls {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls h2 {
+    margin-bottom: 10px;
+  }
+  
+  .controls input[type="text"], .controls input[type="color"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
