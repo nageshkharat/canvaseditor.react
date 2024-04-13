@@ -49,3 +49,17 @@
     border-radius: 5px;
   }
   
+/* Add styles for color options */
+#colorOptions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
