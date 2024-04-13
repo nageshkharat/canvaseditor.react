@@ -10,6 +10,7 @@
   <div class="container">
     <div class="canvas-container">
       <canvas id="canvas" width="1080" height="400"></canvas>
+      <input type="file" id="imageInput" accept="image/*">
     </div>
     <div class="controls">
       <h2>Caption Text</h2>
@@ -18,8 +19,12 @@
       <input type="text" id="ctaInput" placeholder="Enter call to action text">
       <h2>Background Color</h2>
       <input type="color" id="bgColorInput" value="#0369A1">
+      <h2>Recent Colors</h2>
+      <div id="recentColors"></div>
+      <h2>Custom Color</h2>
+      <input type="color" id="customColorInput" value="#ffffff">
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
